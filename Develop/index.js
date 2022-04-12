@@ -11,9 +11,37 @@ function writeToFile(fileName, data) {
         if (err) throw err;
     
         // success case, the file was saved
+    })
+}
+
+    // test
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, 'Description', (err) => {
+        if (err) throw err;
+    })
+}
+
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, 'Table of Contents', (err) => {
+        if (err) throw err;
         console.log('Readme Works you sexy sumofabish!');
     })
 }
+
+            // ANOTHER TEST
+            const inquirer = require('inquirer');
+
+inquirer
+  .prompt([
+    {
+      name: 'faveReptile',
+      message: 'What is your favorite reptile?'
+    },
+  ])
+  .then(answers => {
+    console.info('Answer:', answers.faveReptile);
+  });
+  // END OF TEST
 
 // TODO: Create a function to initialize app
 function init() {
