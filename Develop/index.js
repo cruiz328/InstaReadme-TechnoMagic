@@ -9,7 +9,7 @@ const questions = [
     {
       type: 'input',
       name: 'name',
-      message: 'What is the title of your project?'
+      message: 'What is the title of the project?'
     },
     {
       type: 'checkbox',
@@ -20,8 +20,38 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'What is the description?'
-      },
+        message: 'What is the description for this project?'
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the installation instructions for the project?'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'What is the usage information for this project?'
+    },
+    {
+        type: 'input',
+        name: 'guidelines',
+        message: 'What are the contribution guidelines for this project?'
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What are the test instructions for this project?'
+    },
+    {
+        type: 'input',
+        name: 'GitHub username',
+        message: 'What is your GitHub username?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
+    },
   ];
 
 // TODO: Create a function to write README file

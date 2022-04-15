@@ -43,7 +43,7 @@ function generateMarkdown(data) {
   let inputUsage = `${data.name}`;
 
   let guidelines = "# Contribution Guidelines";
-  let contribution = `${data.name}`;
+  let inputGuidelines = `${data.name}`;
   
   let tests = "# Test Instructions";
   let inputTest = `${data.name}`;
@@ -54,7 +54,7 @@ function generateMarkdown(data) {
   let email = "# Enter Email";
   let inputEmail = `${data.name}`;
 
-   let markdown = `${title} \n ${inputTitle} \n ${description} \n ${inputDescription} \n ${installation} \n ${inputinstallation} \n ${usage} \n ${inputUsage} \n ${guidelines} \n ${inputGuidelines} \n ${tests} \n ${inputTests} \n ${gitHubUsername} \n ${inputGitHubUsername} \n ${email} \n ${inputEmail}`;
+   let markdown = `${title} \n ${inputTitle} \n ${description} \n ${inputDescription} \n ${installation} \n ${inputInstallation} \n ${usage} \n ${inputUsage} \n ${guidelines} \n ${inputGuideLines} \n ${tests} \n ${inputTests} \n ${gitHubUsername} \n ${inputGitHubUsername} \n ${email} \n ${inputEmail}`;
 
 
 
