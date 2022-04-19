@@ -28,33 +28,32 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
-
+  console.log(data);
   let title = "# Title of the Project";
   let inputTitle = `${data.name}`;
  
-
    let description = "# Description";
   let inputDescription = `${data.name}`;
 
   let installation = "# Installation Instructions";
-  let inputInstallation = `${data.name}`;
+  let inputInstallation = `${data.description}`;
 
   let usage = "# Usage Information";
-  let inputUsage = `${data.name}`;
+  let inputUsage = `${data.usage}`;
 
   let guidelines = "# Contribution Guidelines";
-  let inputGuidelines = `${data.name}`;
+  let inputGuidelines = `${data.guidelines}`;
   
-  let tests = "# Test Instructions";
-  let inputTest = `${data.name}`;
+  let test = "# Test Instructions";
+  let inputTest = `${data.test}`;
 
   let gitHubUsername = "# GitHub Username";
-  let inputGitHubUsername = `${data.name}`;
+  let inputGitHubUsername = `${data.github}`;
 
   let email = "# Enter Email";
-  let inputEmail = `${data.name}`;
+  let inputEmail = `${data.email}`;
 
-   let markdown = `${title} \n ${inputTitle} \n ${description} \n ${inputDescription} \n ${installation} \n ${inputInstallation} \n ${usage} \n ${inputUsage} \n ${guidelines} \n ${inputGuideLines} \n ${tests} \n ${inputTests} \n ${gitHubUsername} \n ${inputGitHubUsername} \n ${email} \n ${inputEmail}`;
+   let markdown = `${title} \n ${inputTitle} \n ${description} \n ${inputDescription} \n ${installation} \n ${inputInstallation} \n ${usage} \n ${inputUsage} \n ${guidelines} \n ${inputGuidelines} \n ${test} \n ${inputTest} \n ${gitHubUsername} \n ${inputGitHubUsername} \n ${email} \n ${inputEmail}`;
 
 
 

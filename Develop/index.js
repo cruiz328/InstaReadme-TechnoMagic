@@ -12,12 +12,6 @@ const questions = [
       message: 'What is the title of the project?'
     },
     {
-      type: 'checkbox',
-      message: 'What languages do you know?',
-      name: 'stack',
-      choices: ['HTML', 'CSS', 'JavaScript', 'MySQL']
-    },
-    {
         type: 'input',
         name: 'description',
         message: 'What is the description for this project?'
@@ -44,7 +38,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'GitHub username',
+        name: 'github',
         message: 'What is your GitHub username?'
     },
     {
