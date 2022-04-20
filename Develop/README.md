@@ -1,16 +1,16 @@
 # Title of the Project 
- hh 
+ InstaReadMe-TechnoMagic 
  # Description 
- hh 
+ InstaReadMe-TechnoMagic 
  # Installation Instructions 
- m 
+ This is an app that through the terminal and use of a command line, one can easily, proffesionally and also beautifully build a README worthy of getting a great grade on said assignment 
  # Usage Information 
- b 
+ N/A 
  # Contribution Guidelines 
- b 
+ N/A 
  # Test Instructions 
  undefined 
  # GitHub Username 
- n 
+ cruiz328 
  # Enter Email 
- b
+ lemmy125@gmail.com
