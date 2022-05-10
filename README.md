@@ -15,7 +15,7 @@ This is an app that through the terminal and use of a command line, one can easi
  # Email:
  lemmy125@gmail.com
 # Video Link:
- https://youtu.be/cXABXOxZFxw
+https://www.youtube.com/watch?v=9Rujjy2wSTU
 ## Images:
 <img width="1466" alt="Screen Shot 2022-04-20 at 6 00 52 PM" src="https://user-images.githubusercontent.com/95772578/164407573-76fee62e-a635-4ee3-98a6-db33ee4261a1.png">
 <img width="1440" alt="Screen Shot 2022-04-21 at 12 54 52 AM" src="https://user-images.githubusercontent.com/95772578/164407591-a70172c3-7fe0-4a54-8ba2-6f69f9a53d07.png">
